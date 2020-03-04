@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: RunnerPetStoreTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.395 sec <<< FAILURE!
+Placing an order(Create Pet Store)  Time elapsed: 0.911 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<500>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at PetStoreStepDefinitions.assertSingleResult(PetStoreStepDefinitions.java:113)
+	at ✽.Status for '200'(classpath:PetStore.feature:28)
+
