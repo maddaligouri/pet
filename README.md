@@ -24,4 +24,5 @@ Explain what these tests test and why
 
 ```
 mvn test
+mvn test -Dcucumber.options="--tags @test_1"
 ```
