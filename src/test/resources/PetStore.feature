@@ -7,6 +7,7 @@ Feature: Create Pet Store
     When Do post request 
     Then Status for '<result>'
 
+    @test_1
     Examples:
       | name | result                |
       | ironman    | 200 |
@@ -17,6 +18,7 @@ Feature: Create Pet Store
     When Do delete request
     Then Status for '<result>'
 
+    @test_2
     Examples:
       | name | result                |
       | spiderman    | 200 |
@@ -27,6 +29,7 @@ Feature: Create Pet Store
     When Do place order request
     Then Status for '<result>'
 
+    @test_3
     Examples:
       | name | result                |
       | blackpanter    | 200 |
